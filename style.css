@@ -65,7 +65,7 @@ body{
 
     display:flex;
     align-items:center;
-    gap:12px;
+    gap:25px;
 
 }
 
@@ -139,7 +139,7 @@ section{
 .hero-left{
     display:flex;
     align-items:center;
-    gap:35px;
+    gap:70px;
     flex:1;
 }
 
