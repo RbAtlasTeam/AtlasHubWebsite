@@ -1,0 +1,168 @@
+*{
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+
+body{
+
+    margin:0;
+    background:
+    radial-gradient(circle at top,#182b55,#050816);
+
+    color:white;
+    text-align:center;
+}
+
+
+header{
+
+    padding:80px 20px;
+
+}
+
+
+.logo{
+
+    width:140px;
+    height:140px;
+    border-radius:30px;
+
+    box-shadow:
+    0 0 40px #00aaff;
+
+}
+
+
+h1{
+
+    font-size:60px;
+    margin:20px;
+
+}
+
+
+.subtitle{
+
+    font-size:22px;
+    color:#9edcff;
+
+}
+
+
+.buttons{
+
+    margin-top:35px;
+
+}
+
+
+.btn,
+.download{
+
+    display:inline-block;
+
+    padding:15px 35px;
+
+    margin:10px;
+
+    border-radius:30px;
+
+    background:#008cff;
+
+    color:white;
+
+    text-decoration:none;
+
+    font-weight:bold;
+
+    transition:.3s;
+
+}
+
+
+.btn:hover,
+.download:hover{
+
+    transform:scale(1.1);
+
+    box-shadow:
+    0 0 25px #00aaff;
+
+}
+
+
+
+section{
+
+    padding:40px 20px;
+
+}
+
+
+
+h2{
+
+    font-size:35px;
+
+}
+
+
+
+.card{
+
+    max-width:700px;
+
+    margin:20px auto;
+
+    padding:25px;
+
+    background:
+    rgba(255,255,255,0.08);
+
+    border-radius:20px;
+
+    backdrop-filter:blur(10px);
+
+}
+
+
+
+.features{
+
+    display:flex;
+
+    flex-wrap:wrap;
+
+    justify-content:center;
+
+}
+
+
+
+.features .card{
+
+    width:250px;
+
+    margin:15px;
+
+}
+
+
+
+.download{
+
+    font-size:25px;
+
+    padding:20px 60px;
+
+}
+
+
+footer{
+
+    padding:30px;
+
+    color:#aaa;
+
+}
