@@ -139,7 +139,7 @@ section{
 .hero-left{
     display:flex;
     align-items:center;
-    gap:100px;
+    gap:95px;
     flex:1;
 }
 
