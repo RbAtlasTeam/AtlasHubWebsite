@@ -1,5 +1,5 @@
 const KEY_URL =
-    "https://raw.githubusercontent.com/YOUR_USERNAME/AtlasHub-KeySystem/main/key.txt";
+    "https://raw.githubusercontent.com/RbAtlasTeam/AtlasHub-KeySystem/refs/heads/main/key.txt";
 
 const keyInput = document.getElementById("keyInput");
 const copyButton = document.getElementById("copyKey");
