@@ -7,10 +7,10 @@ const copyStatus = document.getElementById("copyStatus");
 
 async function loadKey() {
     try {
-        const response = await fetch(KEY_URL);
+     const response = await fetch(KEY_URL + "?t=" + Date.now());
 
-        if (!response.ok) {
-            throw new Error("Failed to fetch key");
+       if (!response.ok) {
+            throw new Error("HTTP " + response.status);
         }
 
         const text = await response.text();
